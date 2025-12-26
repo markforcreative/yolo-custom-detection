@@ -1,0 +1,14 @@
+# 数据集配置文件：农夫山泉+充电宝检测
+# 1.数据集跟路径
+path: "E:/WorkSpace/Python/pycharm-project/yolo-custom-detection/my_dataset"
+# 2.训练/验证集图片路径
+train: "images/train"
+val: "images/val"
+
+# 3.类别数
+nc: 2
+
+# 4.类别名称
+names:
+  0: fs_bottle
+  1: powerbank
